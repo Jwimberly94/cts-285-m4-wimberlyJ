@@ -27,7 +27,7 @@ def practice(store):
         if out.status == "correct":
             print("Correct.")
         elif out.status == "retry":
-            print("Not yet. Try again.")
+            print("EEE ---")
         else:
             print(f"The answer is {out.revealed_answer}.")
 
